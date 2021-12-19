@@ -1,12 +1,7 @@
 import styled from "styled-components";
+import RoundButton from "../components/RoundButton";
+import LayoutHeader from "../components/LayoutHeader";
 
-const Main = () => {
-  return <Title>hello</Title>;
-};
+const Main = () => <LayoutHeader></LayoutHeader>;
 
 export default Main;
-
-const Title = styled.div`
-  font-size: 30px;
-  font-weight: bold;
-`;

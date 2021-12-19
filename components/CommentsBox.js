@@ -1,5 +1,5 @@
 const CommentsBox = () => {
-  return <div></div>;
+  return <div className="asdf" style={{ borderRadius: 5 }}></div>;
 };
 
 export default CommentsBox;
