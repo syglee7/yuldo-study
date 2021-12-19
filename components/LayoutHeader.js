@@ -4,7 +4,7 @@ import HeaderImg from "../public/images/header_image.svg";
 const LayoutHeader = () => (
   <Container>
     <ImageContainer>
-      <HeaderImg />
+      <HeaderImage />
     </ImageContainer>
     <MenuContainer></MenuContainer>
   </Container>
@@ -20,11 +20,14 @@ const ImageContainer = styled.div`
   height: 15%;
   display: flex;
   justify-content: center;
-
-  img {
-    width: 80%;
-    height: 100%;
-  }
 `;
 
-const MenuContainer = styled.div``;
+const MenuContainer = styled.div`
+  background: #393535;
+  width: 100vw;
+  height: 10%;
+`;
+
+const HeaderImage = styled(HeaderImg)`
+  width: 80%;
+`;
