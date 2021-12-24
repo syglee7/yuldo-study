@@ -1,0 +1,12 @@
+1. PropsTypes
+- npm i prop-types -> props 가 있을 경우 {children}
+
+2. import Link from 'next/link';
+- <Link href=""><a></a></Link>
+
+3. eslint
+- npm i eslint -D
+- npm i eslint-plugin-import -D
+- npm i eslint-plugin-react -D
+- npm i eslint-plugin-react-hooks -D
+- .eslintrc
